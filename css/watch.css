@@ -1,0 +1,72 @@
+.kong{
+	height: 70px;
+	margin-top: 65px;
+}
+.all{
+	color: #e3e768;
+}
+.ltq-txt span:hover{
+	color: #e3e768;
+	cursor: pointer;
+}
+.ltq-txt span::after{
+	content: '|';
+	padding: 0 20px;
+	color: #ccc;
+}
+.ltq-txt span:nth-of-type(6)::after{
+	content: '';
+	padding: 0 4px;
+}
+.ltq-txt input{
+	width: 120px;
+	height: 23px;
+	border: none;
+	border: 1px solid #e3e768;
+	outline: none;
+}
+.ltq-txt input:nth-of-type(2){
+	width: 40px;
+	background: #e3e768 url('../img/sousuo.png') center no-repeat;
+	background-size: 53% auto;
+}
+
+.goods ul{
+	overflow: hidden;
+}
+.goods ul li{
+	float: left;
+	text-align: center;
+}
+.goods img{
+	width: 100%;
+}
+.goods .text{
+	color: #ccc;
+	font-size: 10px;
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+}
+.goods .price{
+	font-size: 10px;
+}
+.ltq-list{
+	padding-bottom: 90px;
+}
+.pagination>li a{
+	border: 1px solid #ddd;
+	color: #999;
+}
+.pagination>li a:hover{
+	color: #F7C1DA;
+	background: #f1ffd6;
+}
+.pagination .current{
+	border: #e3e768 1px solid;
+	background: #e3e768;
+	color: black;
+}
+.pagination .current:hover{
+	background: #e3e768;
+	color: black;
+}

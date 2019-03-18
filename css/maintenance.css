@@ -1,0 +1,35 @@
+body{
+	cursor: pointer;
+}
+::-webkit-scrollbar{
+	width: 5px;
+	height: 4px;
+	background-color: #e2e765;
+}
+.kong{
+	height: 70px;
+	margin-top: 70px;
+}
+.ltq-title{
+	padding-top: 30px;
+}
+.ltq-title a{
+	color: #e3e768;
+}
+.ltq-title a:hover{
+	text-decoration: none;
+}
+.ltq-text{
+	padding: 50px 0 100px 0;
+}
+.ltq-text p{
+	margin-bottom: 11px;
+	color: #555;
+	height: 20.8px;
+}
+.underline{
+	text-decoration: underline;
+}
+.ltq-text .change{
+	color: red;
+}

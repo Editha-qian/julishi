@@ -1,0 +1,49 @@
+
+.kong{
+	width: 100%;
+	height: 70px;
+	margin-top: 60px;
+}
+.ltq-txt{
+	padding: 0px 0 200px 0;
+}
+.list span{
+	color: #333;
+}
+.list span::after{
+	content: '|';
+	padding: 0 20px;
+	color: #ccc;
+}
+.list span:nth-of-type(3)::after{
+	content: '';
+}
+.list span:hover{
+	color: #e2e765;
+}
+.list .cute{
+	color: #e2e765;
+}
+.up{
+	margin-top: 20px;
+}
+.list{
+	cursor: pointer;
+}
+.ltq-txt p{
+	font-family: 宋体;
+}
+.ltq-txt img{
+	padding-top: 50px;
+}
+
+.develop,.spokesman{
+	margin-top: 50px;
+	display: none;
+	padding-bottom: 200px;
+}
+
+.spokesman img{
+	width: 100%;
+}
+

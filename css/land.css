@@ -1,0 +1,53 @@
+.ltq-header .navbar-right li{
+	padding: 5px 10px;
+}
+.kong{
+	height: 70px;
+	margin-top: 65px;
+}
+/* ltq-land form{
+	width: 540px;
+} */
+.ltq-land .tit{
+	padding: 60px 0;
+	font-size: 24px;
+	font-weight: 700;
+}
+.information{
+	width: 540px;
+}
+.information p{
+	float: left;
+	width: 150px;
+	text-align: right;
+	display: inline-block;
+}
+.information input{
+	float: right;
+	width: 315px;
+	height: 28px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	outline: none;
+}
+.ltq-name{
+	padding: 0 15px 20px 0;
+	position: relative;
+}
+.ltq-name span{
+	background: url('../img/xin.png') no-repeat;
+	width: 10px;
+	height: 10px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.ltq-land button{
+	width: 100px;
+	height: 30px;
+	background: #e2e765;
+	border: none;
+	margin-top: 30px;
+	color: #fff;
+}
